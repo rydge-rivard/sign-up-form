@@ -48,12 +48,12 @@ legend {
 input,
 label,
 button {
-  width: 200px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: inherit;
-  font-size: 100%;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 100%;
 }
 
 input {
@@ -82,4 +82,22 @@ li {
     padding: 6px 60px 6px 0;
     width: 30%;
     flex: 0 0 auto;
+}
+
+.bot-container{
+    padding: 36px 42px;
+}
+
+.bot-container button {
+    border-radius: 6px;
+    background-color: rgb(2,101,90);
+    color: white;
+    padding: 12px 0;
+    border: none;
+    margin: 0 0 24px 0;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.bot-container button:hover {
+    background-color: rgb(5, 158, 140);
 }
