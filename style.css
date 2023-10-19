@@ -6,3 +6,20 @@
     --coral: rgb(255, 192, 203);
     font-family: 'Open Sans';
 }
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 49vw;
+    height: 100vh;
+}
+
+img {
+    width: 50vw;
+    height: 100vh;
+}
