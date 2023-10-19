@@ -8,13 +8,16 @@
 }
 
 img {
-    width: 50vw;
+    max-width: auto;
     height: 100vh;
 }
 
 body {
     margin: 0;
     display: flex;
+    font-size: 17px;
+    flex: 0 1 auto;
+    background-color: rgb(237, 243, 245);
 }
 
 ul {
@@ -29,9 +32,9 @@ fieldset {
     position: relative;
     padding: 0 0 0 42px;
     margin: 0;
-    background-color: var(--pastel-blue);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 6px 6px -6px gray;
     border: none;
-    width: 50vw;
 }
 
 legend {
@@ -61,11 +64,15 @@ input {
 }
 
 .top-container {
-    height: 24vh;
-    padding: 0 24px;
+    height: 25vh;
+    padding: 12px 60px 12px 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 label {
+    display: block;
     font-size: 0.75rem;
     padding: 0 0 2px 0;
     font-weight: 600;
@@ -74,4 +81,5 @@ label {
 li {
     padding: 6px 60px 6px 0;
     width: 30%;
+    flex: 0 0 auto;
 }
