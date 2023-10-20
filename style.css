@@ -79,6 +79,7 @@ button {
     box-sizing: border-box;
     font-family: inherit;
     font-size: 100%;
+    outline: 0;
 }
 
 input {
@@ -135,8 +136,16 @@ a:link {
 
 input:focus {
     box-shadow: 1px 1px 5px gray;
+    border: 1px solid blue;
 }
 
 .error {
     border: 1px solid red;
+}
+
+div.error {
+    font-size: 0.7rem;
+    color: red;
+    border: none;
+    display: block;
 }
