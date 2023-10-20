@@ -10,13 +10,38 @@
 img {
     max-width: auto;
     height: 100vh;
+    position: relative;
+}
+
+.icon {
+    max-width: 5rem;
+    position: absolute;
+    top: -80px;
+    left: 100px;
+}
+
+.icon-banner span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(255, 255, 224);
+    left: 210px;
+    top: 265px;
+}
+
+.icon-banner div {
+    background-color: rgba(0, 0, 0, 0.553);
+    width: 587.25px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
 }
 
 body {
     margin: 0;
     display: flex;
     font-size: 17px;
-    flex: 0 1 auto;
     background-color: rgb(237, 243, 245);
 }
 
@@ -100,4 +125,10 @@ li {
 
 .bot-container button:hover {
     background-color: rgb(5, 158, 140);
+}
+
+a:link {
+    color: rgb(2,101,90);
+    font-weight: 600;
+    text-decoration: none;
 }
