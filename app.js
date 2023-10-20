@@ -6,8 +6,8 @@ function confirmPwd(event) {
     const pwdConfirmed = document.querySelector('#confirm_password');
     if(pwd.value !== pwdConfirmed.value) {
         event.preventDefault();
-        return alert('no match')
+        return alert('no match');
     } else {
-        return alert('match')
+        return alert('match');
     }
-}
+};
