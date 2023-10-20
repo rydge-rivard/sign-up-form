@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&family=Roboto:wght@100;300;400;900&display=swap');
 
-:root {
-    --sand: rgb(255, 255, 224);
-    --pastel-blue: rgb(173, 216, 230);
-    --coral: rgb(255, 192, 203);
+body {
     font-family: 'Open Sans';
+    margin: 0;
+    display: flex;
+    font-size: 17px;
+    background-color: rgb(237, 243, 245);
 }
 
 img {
     max-width: auto;
     height: 100vh;
+}
+
+.left-container {
     position: relative;
 }
 
 .icon {
     max-width: 5rem;
     position: absolute;
-    top: -80px;
+    top: 0;
     left: 100px;
 }
 
-.icon-banner span {
+.left-container span {
     position: absolute;
     font-weight: 600;
     font-size: 60px;
@@ -29,20 +33,13 @@ img {
     top: 265px;
 }
 
-.icon-banner div {
+.left-container div {
     background-color: rgba(0, 0, 0, 0.553);
     width: 587.25px;
     height: 150px;
     position: absolute;
     left: 0;
     bottom: 50%;
-}
-
-body {
-    margin: 0;
-    display: flex;
-    font-size: 17px;
-    background-color: rgb(237, 243, 245);
 }
 
 ul {
