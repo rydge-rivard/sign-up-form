@@ -4,42 +4,54 @@ body {
     font-family: 'Open Sans';
     margin: 0;
     display: flex;
+    flex-flow: row wrap;
     font-size: 17px;
     background-color: rgb(237, 243, 245);
-}
-
-img {
-    max-width: auto;
     height: 100vh;
 }
 
+/* img {
+    height: 100vh;
+} */
+
 .left-container {
-    position: relative;
+    background-image: url(img/hero-two.jpg);
+    width: 40vw;
+    height: auto;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
 }
 
 .icon {
     max-width: 5rem;
-    position: absolute;
-    top: 0;
-    left: 100px;
+    padding: 0 0 0 48px;
 }
 
-.left-container span {
-    position: absolute;
+.logo-banner span {
     font-weight: 600;
     font-size: 60px;
     color: rgb(255, 255, 224);
-    left: 210px;
-    top: 265px;
+    padding: 0 0 0 24px;
 }
 
-.left-container div {
+div.logo-banner {
     background-color: rgba(0, 0, 0, 0.553);
-    width: 587.25px;
-    height: 150px;
-    position: absolute;
-    left: 0;
-    bottom: 50%;
+    flex-grow: 2;
+    width: auto;
+    height: 8.5rem;
+    display: flex;
+    align-items: center;
+    margin: 0 0 120px 0;
 }
 
 ul {
